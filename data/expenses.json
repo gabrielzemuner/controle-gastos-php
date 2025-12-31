@@ -1,0 +1,23 @@
+[
+    {
+        "id": "792f59e3b8915e8c",
+        "description": "Mercado",
+        "amount_cents": 10000,
+        "date": "2025-12-31",
+        "category": "alimentacao"
+    },
+    {
+        "id": "d6f07fc45ec1df7f",
+        "description": "Cinema",
+        "amount_cents": 5050,
+        "date": "2025-12-01",
+        "category": "lazer"
+    },
+    {
+        "id": "1c79dd39eb1f1f62",
+        "description": "Viagem Ubatuba",
+        "amount_cents": 256035,
+        "date": "2025-11-13",
+        "category": "lazer"
+    }
+]

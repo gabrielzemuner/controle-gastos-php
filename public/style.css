@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f3f6;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input,
+button,
+select {
+  padding: 8px;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  background: #fff;
+  height: 33px;
+  border: 1px solid #d9e2ef;
+  background: #fff;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 20px;
+  color: #334e74;
+}
+
+.container {
+  /* max-width: 42rem; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d9e2ef;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.12);
+  overflow: hidden;
+}
+
+.card form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  min-width: 800px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.section-header,
+.section-content,
+.section-footer {
+  padding: 16px 16px 0px 16px;
+}
+
+.section-header form {
+  justify-content: flex-start;
+}
+
+.section-footer {
+  background: #f0f3f6;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.bg-blue {
+  background-color: #5594d8;
+}
+
+.bg-green {
+  background-color: #82be88;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card ul {
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+
+table th,
+table td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #d9e2ef; /* linha entre as linhas */
+}
+
+table thead th {
+  color: #2f74b9;
+  font-weight: 700;
+  background: #fff;
+}
+
+table tbody tr:hover {
+  background: #f6f9fc;
+}
+
+thead {
+  text-align: left;
+}
+
+th {
+  color: #334e74;
+}
+
+@media (max-width: 800px) {
+  .card form {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .section-title {
+    min-width: initial;
+  }
+}
+
+.alert {
+  width: 100%;
+  max-width: 800px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d9e2ef;
+}
+
+.alert-error {
+  background: #fff0f0;
+  border-color: #ffb4b4;
+  color: #7a1f1f;
+}
+.alert-success {
+  background: #f0fff4;
+  border-color: #9ae6b4;
+  color: #1f5e2f;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  border: 0;
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  height: 30px;
+  cursor: pointer;
+}

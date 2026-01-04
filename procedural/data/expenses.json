@@ -1,7 +1,7 @@
 [
     {
         "id": "792f59e3b8915e8c",
-        "description": "Mercado",
+        "description": "Mercadoabc12",
         "amount_cents": 10000,
         "date": "2025-12-31",
         "category": "alimentacao"
@@ -18,6 +18,41 @@
         "description": "Viagem Ubatuba",
         "amount_cents": 256035,
         "date": "2025-11-13",
+        "category": "transporte"
+    },
+    {
+        "id": "ea98de806d96f394",
+        "description": "Busão Curitiba",
+        "amount_cents": 256035,
+        "date": "2026-01-02",
         "category": "lazer"
+    },
+    {
+        "id": "5f223a4f87200543",
+        "description": "Teste",
+        "amount_cents": 100,
+        "date": "2026-01-02",
+        "category": "alimentacao"
+    },
+    {
+        "id": "aae59a703c9c7da0",
+        "description": "<script>123<\/script>",
+        "amount_cents": 100,
+        "date": "2026-01-03",
+        "category": "alimentacao"
+    },
+    {
+        "id": "39613c3e5fff1e1f",
+        "description": "<b>teste<\/b>",
+        "amount_cents": 100,
+        "date": "2026-01-03",
+        "category": "alimentacao"
+    },
+    {
+        "id": "c094411f26149807",
+        "description": "Busão Curitiba",
+        "amount_cents": 50015,
+        "date": "2026-01-03",
+        "category": "transporte"
     }
 ]

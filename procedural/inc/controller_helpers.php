@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/config.php';
 
 function get_flash_and_old(): array
 {
@@ -23,7 +24,7 @@ function get_base_data(): array
     return [
         'today' => date('Y-m-d'),
         'categories' => categories(),
-        'file' => __DIR__ . '/../../data/expenses.json',
+        'file' => EXPENSES_FILE,
     ];
 }
 

@@ -3,12 +3,13 @@ session_start();
 
 require __DIR__ . '/inc/functions.php';
 require __DIR__ . '/inc/data.php';
+require __DIR__ . '/inc/config.php';
 
 $action = $_POST['action'] ?? '';
 
 try {
     // caminho do arquivo de dados 
-    $arquivo = __DIR__ . '/../data/expenses.json';
+    $arquivo = EXPENSES_FILE;
 
     // carrega gastos existentes
     $expenses = load_expenses($arquivo);

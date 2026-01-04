@@ -1,0 +1,1 @@
+<h3 class="section-title btn-<?= $variant ?? 'primary' ?>"><?= $text ?></h3>

@@ -1,1 +1,1 @@
-<h1 class="title">Controle de Gastos</h1>
+<h1 class="title"><?= $text ?></h1>

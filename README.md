@@ -1,32 +1,38 @@
 # Controle Gastos PHP
 
-Projeto de estudo em PHP com duas abordagens:
+Projeto de estudo em PHP, com foco primeiro em procedural e depois em migração gradual para OO.
 
-- procedural/: versao procedural (funcoes, controller + view, partials)
-- old_oo/: versao OO antiga (ignorada no git)
+## Pastas
 
-## Objetivo
+- `procedural/`  
+  Implementação procedural (funções, controller + view, componentes).
+- `old_oo/`  
+  Versão antiga OO (ignorada no git).
+
+## Objetivos
 
 - praticar PHP puro (procedural)
-- organizar controller/view/partials
+- organizar controller/view/componentes
 - evoluir para OO aos poucos
 
-## Estrutura
+## Estrutura (procedural)
 
-- procedural/
-  - index.php (entrada)
-  - controllers/ (logica)
-  - views/ (HTML)
-  - inc/ (helpers e dados)
-  - public/ (CSS)
+- `index.php` — entrada da aplicação
+- `controllers/` — lógica da página
+- `views/` — HTML e views
+- `components/` — componentes reutilizáveis e layouts
+- `inc/` — helpers e configuração
+- `public/` — CSS/estilos
+- `data/` — JSON com os dados
 
 ## Como rodar
 
-- usar servidor local (ex: Laragon)
-- abrir: http://localhost/controle-gastos-php/procedural/index.php
+- use um servidor local (ex: Laragon)
+- acesse:  
+  `http://localhost/controle-gastos-php/procedural/index.php`
 
-## Proximos passos
+## Próximos passos
 
-- melhorar paginacao
-- ajustes de validacao
-- migracao gradual para OO
+- melhorar paginação
+- ajustes de validação
+- iniciar migração gradual para OO
